@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+    --color-black: #232323;
+    --color-yellow: #C8A36E;
+    --color-black2: #1b1b1b;
+}
+
+.body-settings{
+    background-color: var(--color-black);
+    color: var(--color-yellow);
+    font-family: 'Mongolian Baiti';
+}
+
+.icon-wrapper{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+}
+
+.btn-download{
+    background-color: var(--color-black);
+    color: var(--color-yellow);
+    border: var(--color-yellow) 2px solid;
+    border-radius: 30px;
+    padding: 5px 40px;
+    transition: 200ms;
+}
+
+.btn-download:hover{
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+    border: var(--color-yellow) 2px solid;
+}
+
+.sobre{
+    background-color: #8e8572;
+    color: var(--color-black);
+}
+
+.icon-features-wrapper{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.linktree-wrapper{
+    overflow: hidden;
+    border-radius: 50%;
+    transition: 200ms;
+    max-width: 42px;
+    max-height: 42px;
+    padding: 0;
+    margin: 0;
+}
+
+.linktree-wrapper:hover{
+    opacity: 60%;
+}
+
+.text-wallpaper{
+    transition: 200ms;
+}
+
+.text-wallpaper:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    border-color: var(--color-yellow)!important;
+    background-color: var(--color-black2);
+}
